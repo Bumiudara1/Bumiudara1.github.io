@@ -23,7 +23,7 @@
 			max-width: 800px;
 			max-height: 800px;
 			background-color: rgba(0, 0, 0, 0.8);
-			padding: 0px;
+			padding: 100%;
 			text-align: center;
 			z-index: 1;
 		}
@@ -52,7 +52,7 @@
 		}
 		// Función para mostrar un video aleatorio
 		function showRandomVideo() {
-			var videos = ["carta2.webm", "carta 1.webm", "carita1.webm", "carta animation.webm", "corazonanimation.webm", "emogi animation.webm"];
+			var videos = ["carta animation.webm", "corazonanimation.webm", "emogi animation.webm"];
 			var randomIndex = Math.floor(Math.random() * videos.length);
 			var randomVideo = videos[randomIndex];
 			var videoBox = document.getElementById("video-box");
